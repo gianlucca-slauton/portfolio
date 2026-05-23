@@ -1,0 +1,61 @@
+*{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      scroll-behavior:smooth;
+    }
+
+    :root{
+      --bg:#070b14;
+      --card:#111827;
+      --card2:#151f31;
+      --text:#f5f7ff;
+      --gray:#9ca3af;
+      --blue:#4f8cff;
+      --cyan:#2dd4bf;
+      --border:rgba(255,255,255,.08);
+      --shadow:0 10px 40px rgba(0,0,0,.4);
+    }
+
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      overflow-x:hidden;
+    }
+
+
+
+
+    footer{
+      text-align:center;
+      padding:50px 20px;
+      border-top:1px solid var(--border);
+      color:var(--gray);
+    }
+
+
+
+
+
+    /* RESPONSIVE */
+
+    @media(max-width:900px){
+
+      .hero{
+        grid-template-columns:1fr !important;
+      }
+
+      .hero-text h1{
+        margin-top:20%;
+        font-size:2.5rem !important;
+      }
+
+      .menu{
+        gap:30px !important;
+      }
+
+     .logo{
+        display:none;
+      }
+    }
