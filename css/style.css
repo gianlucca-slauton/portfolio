@@ -32,8 +32,14 @@
       padding:50px 20px;
       border-top:1px solid var(--border);
       color:var(--gray);
+  
     }
 
+    footer a{
+      color:var(--gray);
+      font-size:1.1rem;
+      text-decoration:none;
+    }
 
 
 
