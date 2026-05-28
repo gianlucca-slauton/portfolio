@@ -1,6 +1,7 @@
 .section-title{
       font-size:2.4rem;
-      margin-bottom:20px;
+      margin-bottom:5px;
+      padding-top:12%;
       position:relative;
       display:inline-block;
     }
@@ -34,7 +35,7 @@
 }
 
 .project-card{
-  background:rgba(255,255,255,.03);
+  background:#ffffff08;
   border:1px solid var(--border);
   border-radius:24px;
   overflow:hidden;
@@ -45,8 +46,8 @@
 
 .project-card:hover{
   transform:translateY(-12px);
-  border-color:rgba(79,140,255,.45);
-  box-shadow:0 20px 40px rgba(0,0,0,.35);
+  border-color:#4f8cff73;
+  box-shadow:0 20px 40px #00000059;
 }
 
 .project-image{
@@ -88,8 +89,8 @@
 }
 
 .project-tags span{
-  background:rgba(79,140,255,.12);
-  border:1px solid rgba(79,140,255,.25);
+  background:#4f8cff1f;
+  border:1px solid #4f8cff40;
   color:#9fc0ff;
   padding:8px 14px;
   border-radius:999px;
@@ -107,7 +108,7 @@
   padding:12px;
   border-radius:12px;
   text-decoration:none;
-  color:white;
+  color:#ffffff;
   font-weight:700;
   transition:.3s;
   background:linear-gradient(135deg,var(--blue),var(--cyan));
@@ -128,7 +129,7 @@
     }
 
     .skill-card{
-      background:rgba(255,255,255,.03);
+      background:#ffffff08;
       border:1px solid var(--border);
       border-radius:20px;
       padding:30px 20px;
@@ -155,7 +156,7 @@
 
     .skill-card:hover{
       transform:translateY(-10px);
-      border-color:rgba(79,140,255,.5);
+      border-color:#4f8cff80;
     }
 
     .skill-card img{

@@ -4,6 +4,7 @@
       grid-template-columns:1fr 1fr;
       align-items:center;
       gap:60px;
+      padding-top:8%;
     }
 
     .hero-text{
@@ -44,8 +45,8 @@
 
     .primary{
       background:linear-gradient(135deg,var(--blue),var(--cyan));
-      color:white;
-      box-shadow:0 10px 25px rgba(79,140,255,.35);
+      color:#ffffff;
+      box-shadow:0 10px 25px #4f8cff59;
     }
 
     .primary:hover{
@@ -54,8 +55,8 @@
 
     .secondary{
       border:1px solid var(--border);
-      color:white;
-      background:rgba(255,255,255,.03);
+      color:#ffffff;
+      background:#ffffff08;
     }
 
     .secondary:hover{
@@ -79,14 +80,14 @@
       position:absolute;
       width:180px;
       height:180px;
-      background:rgba(79,140,255,.2);
+      background:#4f8cff33;
       border-radius:50%;
       top:-60px;
-      right:-60px;
+      right:10px;
     }
 
     .hero-card img{
-      width:100%;
+      width:80%;
       border-radius:20px;
       transition:.4s;
     }
