@@ -168,3 +168,48 @@
     .skill-card h3{
       font-size:1rem;
     }
+
+
+    /* Cards com altura igual e botões sempre no fundo */
+.projects-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  align-items: stretch;          /* cards da mesma linha crescem juntos */
+}
+
+.project-card{
+  display: flex;
+  flex-direction: column;        /* imagem, texto e botões empilham */
+  height: 100%;
+}
+
+.project-card .project-image{
+  flex-shrink: 0;                /* imagem nunca é espremida */
+}
+
+.project-content{
+  flex: 1;                       /* ocupa o espaço que sobrar no card */
+  display: flex;
+  flex-direction: column;
+}
+
+.project-buttons{
+  margin-top: auto;              /* ← o truque: cola os botões no fundo */
+  padding-top: 16px;             /* respiro em relação às tags/texto */
+}
+
+
+
+.project-tags{
+  margin-top: auto;              /* as tags sobem até o fim do espaço vazio... */
+  margin-bottom: 3%;              /* ...e ficam coladas em cima dos botões */
+  padding-top: 16px;             /* respiro em relação ao texto */
+  display: flex;
+  flex-wrap: wrap;               /* se muitas tags, quebram sem estourar */
+  gap: 8px;                      /* espaçamento entre elas */
+}
+
+.project-buttons{
+  margin-top: 0;                 /* quem "empurra" agora é a fileira de tags */
+  padding-top: 12px;             /* respiro entre tags e botões */
+}
